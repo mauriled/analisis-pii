@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Sessions data (preserves directory structure, ignores sensitive extracted pkl data)
+sessions/*.pkl
+!sessions/.gitkeep
+
+# Exported Excel reports
+*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
